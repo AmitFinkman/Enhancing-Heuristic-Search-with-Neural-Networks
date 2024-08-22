@@ -33,7 +33,10 @@ graph LR
     class Attention attention;
     class Input,Output io;
 ```
-### Provided source codes
-#### TopSpinState Class
+### Provided Source Codes
 
-The `TopSpinState` class represents a state in the TopSpin puzzle, providing methods to manipulate and query the puzzle state.
+1. `TopSpinState.py` represents a state in the TopSpin puzzle.
+2. `SearchAlgorithms.py` implements A*, Weighted A*, and Batch Weighted A* search algorithms for solving the TopSpin puzzle, including node management and state transitions.
+3. `heuristics.py` defines a neural network-based heuristic model for the TopSpin puzzle, including random state generation and bootstrapping methods for training the model.
+4. `training.py` provides a training for a bootstrapping heuristic using various search algorithms, generating training data with a base heuristic, and performing iterative model training with early stopping based on loss improvements.
+5. `expiremnets.py` runs experiments to evaluate different heuristics using search algorithms, measures performance metrics like runtime, path length, and number of expansions.
