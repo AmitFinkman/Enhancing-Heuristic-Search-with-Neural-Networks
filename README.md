@@ -5,14 +5,14 @@ In this project, we explore the use of neural networks to learn heuristics throu
 
 We apply this approach to the TopSpin puzzle, a challenging combinatorial problem, to demonstrate how integrating neural networks into the heuristic search process can significantly enhance search efficiency. Our goal is to show that a search algorithm utilizing learned heuristics will expand fewer nodes on average than one using a basic heuristic, thereby improving overall search performance even if the learned heuristic does not guarantee admissibility.
 
-.
-├── README.md
-├── dfbnb.py                       # Implementation of the DFBnB algorithm
-├── experiment_utils.py            # Utilities for running experiments
-├── main.py                        # Main script to execute experiments
-├── results_analysis.ipynb         # Jupyter Notebook for analyzing experiment results
-├── logs/                          # Directory where log files are stored
-└── results/                       # Directory where experiment results are stored
+
+### 3. **Commit and Push the Changes**
+
+1. **Add the files to Git:**
+
+   ```bash
+   git add README.md dfbnb.py experiment_utils.py main.py results_analysis.ipynb logs/ results/
+```
 
 ## Neural Network Architecture
 
