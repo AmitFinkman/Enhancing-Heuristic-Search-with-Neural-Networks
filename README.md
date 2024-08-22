@@ -33,7 +33,7 @@ graph LR
     class Attention attention;
     class Input,Output io;
 ```
-### Provided Source Codes
+## Provided Source Codes
 
 1. `TopSpinState.py` represents a state in the TopSpin puzzle.
 2. `SearchAlgorithms.py` implements A*, Weighted A*, and Batch Weighted A* search algorithms for solving the TopSpin puzzle, including node management and state transitions.
