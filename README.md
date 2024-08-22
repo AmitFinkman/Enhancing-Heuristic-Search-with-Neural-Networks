@@ -6,6 +6,12 @@ In this project, we explore the use of neural networks to learn heuristics throu
 
 We apply this approach to the TopSpin puzzle, a challenging combinatorial problem, to demonstrate how integrating neural networks into the heuristic search process can significantly enhance search efficiency. Our goal is to show that a search algorithm utilizing learned heuristics will expand fewer nodes on average than one using a basic heuristic, thereby improving overall search performance even if the learned heuristic does not guarantee admissibility.
 
+
+## Neural Network Architecture
+
+The following diagram illustrates the architecture of the neural network used in our project:
+
+```mermaid
 graph LR
     Input[Input] --> FC1[FC1 256]
     FC1 --> |Dropout 0.3| FC2[FC2 128]
