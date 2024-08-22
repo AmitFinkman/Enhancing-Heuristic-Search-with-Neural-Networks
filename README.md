@@ -34,7 +34,7 @@ graph LR
     class Attention attention;
     class Input,Output io;
 ```
-## Provided source codes
-## TopSpinState Class
+### Provided source codes
+#### TopSpinState Class
 
 The `TopSpinState` class represents a state in the TopSpin puzzle, providing methods to manipulate and query the puzzle state.
